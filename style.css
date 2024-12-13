@@ -71,9 +71,29 @@ button:hover {
   margin-top: 10px;
   max-width: 200px;
   border: 2px solid #d32f2f;
-<<<<<<< HEAD
-  border-radius: 5px;
-=======
   border-radius: 5px;
 }
->>>>>>> refs/remotes/origin/main
+
+/* GOLOVNA */
+.gol-body {
+  font-size: 20px;
+}
+.container-ul {
+  display: flex;
+  justify-content: center;
+}
+.list {
+  width: 600px;
+  line-height: 35px;
+}
+.gol-body .text {
+  display: flex;
+  justify-content: center;
+}
+.gol-body p {
+  width: 600px;
+}
+
+.gol-body h2 {
+  font-size: 26px;
+}

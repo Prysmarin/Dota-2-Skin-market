@@ -1,52 +1,66 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Кейси Dota 2</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="header-container">
-      <img src="https://seekvectors.com/files/download/dota-2-logo.png" class="logo" width="120" height="125" />
-      <h1>Dota 2 <span style="color: darkgray">Кейси</span></h1>
-    </div>
-    <nav>
-      <a href="#">Головна</a>
-      <a href="#">Магазин</a>
-      <a href="#">Новини</a>
-      <a href="#">Сети</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Виберіть кейс для відкриття:</h2>
-      <select id="skinSelect">
-        <option value="claszian-apostasy">Collector cashe 2024</option>
-        <option value="abberant-observer">Collector cashe 2020</option>
-        <option value="starlorn-adjudicator">Collector cashe 2022</option>
-        <option value="undying-love">Collector cashe 2015</option>
-        <option value="mocking-bird">Collector cashe 2018</option>
-      </select>
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Кейси Dota 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img
+          src="https://seekvectors.com/files/download/dota-2-logo.png"
+          class="logo"
+          width="120"
+          height="125"
+        />
+        <h1>Dota 2 <span style="color: darkgray">Кейси</span></h1>
+      </div>
+      <nav>
+        <a href="golovna.html">Головна</a>
+        <a href="#">Магазин</a>
+        <a href="#">Новини</a>
+        <a href="index.html">Кейси</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Виберіть кейс для відкриття:</h2>
+        <select id="skinSelect">
+          <option value="claszian-apostasy">
+            Collector cashe 2024
+          </option>
+          <option value="abberant-observer">
+            Collector cashe 2020
+          </option>
+          <option value="starlorn-adjudicator">
+            Collector cashe 2022
+          </option>
+          <option value="undying-love">Collector cashe 2015</option>
+          <option value="mocking-bird">Collector cashe 2018</option>
+        </select>
+      </section>
 
-    <section id="caseSection">
-      <h2>Відкрити кейс</h2>
-      <button id="openCaseButton">Відкрити</button>
-      <div id="caseAnimation" class="hidden">
-        <p>Кейс відкривається...</p>
-      </div>
-      <div id="rewardContainer" class="hidden">
-        <h3>Ви отримали:</h3>
-        <div id="reward"></div>
-        <button id="tryAgainButton">Відкрити ще раз</button>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>© 2024 Кейси Dota 2. Усі права захищені.</p>
-  </footer>
-  <script src="main.js"></script>
-</body>
+      <section id="caseSection">
+        <h2>Відкрити кейс</h2>
+        <button id="openCaseButton">Відкрити</button>
+        <div id="caseAnimation" class="hidden">
+          <p>Кейс відкривається...</p>
+        </div>
+        <div id="rewardContainer" class="hidden">
+          <h3>Ви отримали:</h3>
+          <div id="reward"></div>
+          <button id="tryAgainButton">Відкрити ще раз</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Кейси Dota 2. Усі права захищені.</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>
