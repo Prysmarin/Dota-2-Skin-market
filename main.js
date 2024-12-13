@@ -20,7 +20,7 @@ const skins = {
       name: "Mocking Bird",
       img: "mocking-bird.png",
     },
-  };
+  }
   
   // Елементи інтерфейсу
   const skinSelect = document.getElementById("skinSelect");
