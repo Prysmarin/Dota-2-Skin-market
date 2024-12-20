@@ -67,3 +67,5 @@ const skins = {
   openCaseButton.addEventListener("click", openCase);
   tryAgainButton.addEventListener("click", resetCase);
   
+
+
